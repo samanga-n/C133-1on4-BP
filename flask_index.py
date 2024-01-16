@@ -4,9 +4,9 @@ app = Flask(__name__)
 @app.route("/")
 def first_flask():
     #Create a variable
-    name = 'Flask'
+    name = ''
     # Pass the variable in the template
-    return render_template('index.html', index_variable = name)
+    return render_template('index.html', )
 app.run(debug=True)
 
 
